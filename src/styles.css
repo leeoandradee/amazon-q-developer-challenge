@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #0f1419;
+  color: #e6e6e6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.chat-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background: #1a1f2e;
+}
+
+.message {
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.user-message {
+  background: #2d3748;
+  margin-left: 20%;
+}
+
+.ai-message {
+  background: #1a365d;
+  margin-right: 20%;
+}
+
+.input-area {
+  padding: 20px;
+  background: #2d3748;
+  display: flex;
+  gap: 10px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #4a5568;
+  color: #e6e6e6;
+}
+
+.input-area button {
+  padding: 12px 24px;
+  background: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.language-selector {
+  margin-bottom: 20px;
+}
+
+.language-selector select {
+  padding: 8px;
+  background: #4a5568;
+  color: #e6e6e6;
+  border: none;
+  border-radius: 4px;
+}
