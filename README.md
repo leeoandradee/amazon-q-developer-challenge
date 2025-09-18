@@ -45,7 +45,7 @@ Angular 17 + TypeScript
 
 ### Diagrama de Arquitetura
 
-![Arquitetura](./IMG_0009.png)
+![Arquitetura](./IMG_0009.jpeg)
 
 O diagrama mostra a arquitetura em camadas:
 - **Frontend Layer:** Angular 17 com componentes standalone
