@@ -1,3 +1,6 @@
+
+![projeto rodando](./IMG_0004.png)
+
 # Dev Migration Agent 🚀
 
 Agente Angular para auxiliar desenvolvedores na migração entre linguagens de programação, conectado com MCP (Model Context Protocol) da AWS.
